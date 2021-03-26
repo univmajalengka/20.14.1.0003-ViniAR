@@ -1,7 +1,7 @@
 (*
 Nama         : Vini Arifiani Rohmat
 NPM          : 20.14.1.0003
-Nama Program : TUGAS4-4.pas
+Nama Program : TUGAS4-1.pas
 *)
 
 program tabel_pekalian;
@@ -12,9 +12,14 @@ n,i:integer;
 
 begin
 clrscr;
+i := 0;
 write('Masukkan Angka Perkalian : '); readln(n);
-for i := 1 to 10 do
-writeln (n,' * ',i,' = ',n*i);
+while i < n do
+begin
+writeln(n,' * ',i+1,' = ',(i+1)*n);
+i := i + 1;
+end;
+
 readln;
 
 end.
