@@ -15,7 +15,7 @@ clrscr;
 writeln('Program Konversi Suhu Fahrenheit - Celcius');
 writeln('=========================================');
 write('Masukkan suhu dalam Fahrenheit : '); readln(i);
-f := (5/9)*(i-32);
+f := (f-32)*5/9;
 writeln('Suhu ',i:0:2,' Fahrenheit dalam Celcius adalah ',f:0:2);
 readln;
 
