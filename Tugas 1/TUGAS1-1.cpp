@@ -1,6 +1,6 @@
 /*
-Nama			: Vini Arifiani Rohmat
-NPM				: 20.14.1.0003
+Nama		: Vini Arifiani Rohmat
+NPM		: 20.14.1.0003
 Nama Program	: TUGAS1-1.cpp
 */
 
