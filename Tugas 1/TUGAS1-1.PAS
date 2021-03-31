@@ -7,16 +7,29 @@ Nama Program : TUGAS1-1.pas
 program biodata;
 uses crt;
 
+var
+nama,npm,alamat,ttl,no_hp,motto:string;
+
 begin
 clrscr;
 writeln('------------------------------');
+writeln('INPUT BIODATA');
+write('Nama   : '); readln(nama);
+write('NPM    : '); readln(npm);
+write('Alamat : '); readln(alamat);
+write('TTL    : '); readln(ttl);
+write('No.HP  : '); readln(no_hp);
+write('Motto  : '); readln(motto);
+writeln('------------------------------');
+writeln;
+writeln('------------------------------');
 writeln('BIODATA');
-writeln('Nama   : Vini Arifiani Rohmat');
-writeln('NPM    : 20.14.1.0003');
-writeln('Alamat : Majalengka');
-writeln('TTL    : Majalengka, 16 September 2002');
-writeln('No.HP  : 08522322XXXX');
-writeln('Motto  : Belajar dari kesalahan untuk memperbaiki diri menjadi lebih baik');
+writeln('Nama   : ',nama); 
+writeln('NPM    : ',npm); 
+writeln('Alamat : ',alamat); 
+writeln('TTL    : ',ttl); 
+writeln('No.HP  : ',no_hp); 
+writeln('Motto  : ',motto); 
 writeln('------------------------------');
 readln;
 
